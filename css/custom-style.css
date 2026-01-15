@@ -506,31 +506,24 @@ a:active {
     width: 40%;
 }
 
-/* Mobile par background lines aksar kharab dikhti hain, isliye handle karein */
-@media (max-width: 991px) {
-    .features-wrapper {
-        background-image: none;
-    }
 
-    /* Mobile par plain rakhen for better UX */
-}
 
-/* Styling for Benefit Boxes */
 .benefit-item {
     margin-bottom: 60px;
 }
 
 
-.stick-one{
-   top: 30px;
-   left: 50px;
+.stick-one {
+    top: 30px;
+    left: 50px;
 }
 
-.stick-two{
+.stick-two {
     top: 30px;
     right: 50px;
 
 }
+
 .benefit-title {
     font-weight: 800;
     color: #233142;
@@ -539,58 +532,17 @@ a:active {
 }
 
 .benefit-text {
-    font-size: 0.9rem;
-    color: #555;
     max-width: 250px;
 }
 
-/* Central Space for Logo */
-.center-logo-area {
-    min-height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.center-logo-area img {
-    max-width: 220px;
-    z-index: 5;
-}
 
-/* Bottom Buttons */
-.btn-custom {
-    border-radius: 50px;
-    padding: 12px 30px;
-    font-weight: 600;
-    display: inline-flex;
-    align-items: center;
-    transition: 0.3s;
-    border: none;
-    color: white;
-}
 
-.btn-blue {
-    background: #234996;
-}
 
-.btn-orange {
-    background: #e85a1c;
-}
 
-.arrow-circle {
-    background: white;
-    color: #234996;
-    border-radius: 50%;
-    width: 24px;
-    height: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 10px;
-    font-size: 0.8rem;
-}
-@media (max-width: 991px) {
- .stick{
-    display: none;
- }
-}
+
+    @media (max-width: 991px) {
+        .stick {
+            display: none;
+        }
+    }
