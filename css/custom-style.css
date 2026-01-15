@@ -535,14 +535,80 @@ a:active {
     max-width: 250px;
 }
 
-
-
-
-
-
-
-    @media (max-width: 991px) {
-        .stick {
-            display: none;
-        }
+@media (max-width: 991px) {
+    .stick {
+        display: none;
     }
+}
+
+
+
+
+/* ---------------------------------------------------------------------------TESTIMONIAL SLIDER------------------------- */
+
+.camo-testimonials .swiper {
+    width: 100%;
+    height: 561PX;
+}
+
+.camo-testimonials .swiper-slide {
+    text-align: start;
+    font-size: 18px;
+    background: #444;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.camo-testimonials .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bg-custom-navy {
+    /* background-color: #1a3673; */
+}
+
+.rounded-review {
+    border-radius: 2.5rem;
+}
+
+.google-logo {
+    width: 62px !important;
+    height: 62px !important;
+    margin-left: auto;
+
+
+   
+}
+
+.profile-img {
+    width: 72px !important;
+    height: 72px !important;
+   
+
+}
+
+.testimonial-card {
+    transition: all .3s ease;
+}
+
+.testimonial-card:hover{
+    background: #14357A !important;
+    cursor: pointer;
+}
+
+.testimonial-card:hover p {
+    color: white;
+}
+
+.testimonial-card:hover .testimonial-name {
+    color: white !important;
+}
+
+.testimonial-card:hover .testimonial-date {
+    color: white !important;
+}
