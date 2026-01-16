@@ -409,7 +409,7 @@ a:active {
 }
 
 .camo-btn-dark {
-        font-weight: 600;
+    font-weight: 600;
     width: fit-content;
     border-radius: 20px;
     font-size: 14px;
@@ -645,6 +645,7 @@ section.camo-about .container .row.bg-white {
     border-radius: 50px;
     padding: 30px 20px 30px 50px !important;
 }
+
 /* 
 .image .desc {
     bottom: 30px;
@@ -654,26 +655,65 @@ section.camo-about .container .row.bg-white {
 } */
 
 
-.image{
- background-color: #CAF6FF;
- height: 430px;
- border-radius: 35px;
+.image {
+    background-color: #CAF6FF;
+    height: 430px;
+    border-radius: 35px;
 }
 
 
 .img-wrapper {
-    width: 100%; 
+    width: 100%;
 }
 
 .img-wrapper img {
     /* width: 100%;  */
-    height: auto; /* maintain aspect ratio */
+    height: auto;
+    /* maintain aspect ratio */
     display: block;
 }
 
 @media (max-width: 576px) {
     .image {
-        height: auto; 
+        height: auto;
         padding: 12px;
     }
+}
+
+
+
+
+/* -----------------------------------------------------------------SECTION 3 OUR VLAUES SLIDER---------------------------- */
+
+
+.valuesSlider .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide .camo-six-card {
+    height: 400px !important;
+   
+}
+
+.valuesSlider .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: #444; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.valuesSlider .swiper-slide img {
+    display: block;
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+}
+
+.valuesSlider .icon-circle{
+    
+    padding: 12px;
+  
 }
