@@ -409,6 +409,10 @@ a:active {
 }
 
 .camo-btn-dark {
+        font-weight: 600;
+    width: fit-content;
+    border-radius: 20px;
+    font-size: 14px;
     background: linear-gradient(135deg, #26419C 50%, #19ABC8);
     color: var(--color-white);
 }
@@ -622,3 +626,37 @@ a:active {
 .testimonial-pagination .swiper-pagination-bullet-active {
     background: #FC621A;
 }
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------ABOUT-PAGE------------------------------- */
+
+/* --------------------------------------------------------------------------------SECTION TWO MISSION-------------------------- */
+
+section.camo-about p {
+    font-size: 15px;
+}
+
+section.camo-about .container .row.bg-white {
+    border-radius: 50px;
+    padding: 30px 20px 30px 50px !important;
+}
+/* 
+.image .desc {
+    bottom: 30px;
+    left: 30px;
+    color: white;
+    width: 80%;
+} */
+
+
+.image{
+ background-color: #CAF6FF;
+ height: 430px;
+ border-radius: 35px;
+}
+
