@@ -17,9 +17,9 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         // grabCursor: true,
         breakpoints: {
-            0: { slidesPerView: 1, spaceBetween: 1 },
-            768: { slidesPerView: 2, spaceBetween: 10 },
-            1024: { slidesPerView: 2.5, spaceBetween: 10 },
+            0: { slidesPerView: 1, spaceBetween: 16 },
+            768: { slidesPerView: 2, spaceBetween: 20 },
+            1024: { slidesPerView: 2.5, spaceBetween: 20 },
             1300: { slidesPerView: 2.4, spaceBetween: 20 }
         }
        

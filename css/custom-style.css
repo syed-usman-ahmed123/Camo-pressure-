@@ -492,7 +492,7 @@ a:active {
 
 
 
-/* ----------------------------------------------------------------------------USMAN BENEFITS SECTION */
+/* ----------------------------------------------------------------------------USMAN BENEFITS SECTION -----------------------------*/
 
 .bubble-img {
     position: absolute;
@@ -548,7 +548,8 @@ a:active {
 
 .camo-testimonials .swiper {
     width: 100%;
-    height: 561PX;
+    height: 600px;
+    padding-bottom: 60px;
 }
 
 .camo-testimonials .swiper-slide {
@@ -568,9 +569,7 @@ a:active {
     object-fit: cover;
 }
 
-.bg-custom-navy {
-    /* background-color: #1a3673; */
-}
+
 
 .rounded-review {
     border-radius: 2.5rem;
@@ -582,13 +581,13 @@ a:active {
     margin-left: auto;
 
 
-   
+
 }
 
 .profile-img {
     width: 72px !important;
     height: 72px !important;
-   
+
 
 }
 
@@ -596,7 +595,7 @@ a:active {
     transition: all .3s ease;
 }
 
-.testimonial-card:hover{
+.testimonial-card:hover {
     background: #14357A !important;
     cursor: pointer;
 }
@@ -611,4 +610,15 @@ a:active {
 
 .testimonial-card:hover .testimonial-date {
     color: white !important;
+}
+
+.testimonial-pagination .swiper-pagination-bullet {
+    background: #ACACAC;
+    width: 14px;
+    height: 14px;
+    transition: all 0.3s ease;
+}
+
+.testimonial-pagination .swiper-pagination-bullet-active {
+    background: #FC621A;
 }
