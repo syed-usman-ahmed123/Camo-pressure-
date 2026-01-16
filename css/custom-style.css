@@ -660,3 +660,20 @@ section.camo-about .container .row.bg-white {
  border-radius: 35px;
 }
 
+
+.img-wrapper {
+    width: 100%; 
+}
+
+.img-wrapper img {
+    /* width: 100%;  */
+    height: auto; /* maintain aspect ratio */
+    display: block;
+}
+
+@media (max-width: 576px) {
+    .image {
+        height: auto; 
+        padding: 12px;
+    }
+}
