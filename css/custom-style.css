@@ -701,7 +701,7 @@ section.camo-about .container .row.bg-white {
 
 .swiper-slide .camo-six-card {
     height: 400px !important;
-   
+
 }
 
 .valuesSlider .swiper-slide {
@@ -720,9 +720,9 @@ section.camo-about .container .row.bg-white {
     object-fit: cover;
 }
 
-.valuesSlider .icon-circle{
+.valuesSlider .icon-circle {
     padding: 12px;
-  
+
 }
 
 
@@ -731,18 +731,81 @@ section.camo-about .container .row.bg-white {
 
 /* ------------------------------------------------------------------------BLOG SECTION------------------------------------ */
 
-.Camo-blog .read-more-link{
+.Camo-blog .read-more-link {
     color: #F45E18;
 }
 
-.Camo-blog .p-h{
+.Camo-blog .p-h {
     color: #F45E18;
 }
 
+/* .blog-overflow-fix {
+  overflow-x: hidden;
+} */
 
-.Camo-blog .camo-blog-container{
- transform: translateY(-150px) !important;
+
+.Camo-blog .camo-blog-container {
+    transform: translateY(-100px);
+    z-index: 5;
 }
+
+
+
+
+
+/* ---------------------------------------------------------------------SERVICES AREAS SECTION------------------ */
+
+.camo-areas{
+    background-color: #e8f8fc;
+}
+
+.camo-areas .camo-areas-container {
+    transform: translateY(-120px);
+    z-index: 5;
+}
+
+    
+.camo-areas .city-card {
+    overflow: hidden;
+    background-color: #CAF6FF;
+    padding: 10px;
+    transition: transform 0.3s ease;
+    height: 100%;
+    border-radius: 26px;
+}
+
+.camo-areas .city-card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+    background-color: #14357A;
+
+
+}
+
+.camo-areas .city-card:hover P {
+    color: white;
+}
+
+.camo-areas .city-card p {
+    color: #1B2A41;
+}
+
+.camo-areas .city-img-wrapper {
+    border-radius: 24px;
+}
+
+
+.camo-areas .city-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
 
 
 
