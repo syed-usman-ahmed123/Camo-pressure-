@@ -194,7 +194,15 @@ a:active {
 
 
 /* ----------------------------------------------------------------- USMAN FOOTER----------------------------------- */
+.footer-link {
+    transition: all 0.3s ease;
+}
 
+
+.footer-link:hover {
+    color: var(--brand-accent) !important;
+    padding-left: 5px;
+}
 
 /* Custom Social Icons Circle */
 .social-icon {
@@ -713,7 +721,45 @@ section.camo-about .container .row.bg-white {
 }
 
 .valuesSlider .icon-circle{
-    
     padding: 12px;
   
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------BLOG SECTION------------------------------------ */
+
+.Camo-blog .read-more-link{
+    color: #F45E18;
+}
+
+.Camo-blog .p-h{
+    color: #F45E18;
+}
+
+
+.Camo-blog .camo-blog-container{
+ transform: translateY(-150px) !important;
+}
+
+
+
+
+
+
+
+/* ------------------------------------------------------------- USMAN BUTTON ANIMATION -------------------*/
+
+.btn-animate {
+    transition: transform 0.35s ease, box-shadow 0.35s ease !important;
+}
+
+.btn-animate:hover {
+    transform: translateY(-2px) scale(1.03) !important;
+}
+
+.btn-animate:active {
+    transform: scale(0.97) !important;
 }
