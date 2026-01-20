@@ -804,10 +804,49 @@ section.camo-about .container .row.bg-white {
 
 
 
+/* --------------------------------------------------------SERVICE-------------------- ---------------------*/
+/* services section */
+
+.process-section {
+  background: radial-gradient(circle at top, #eaf9ff 0%, #f9fdff 70%);
+}
+
+.process-circle {
+  background: #ffffff;
+  border-radius: 50%;
+  padding: 50px 30px;
+  height: 100%;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.05);
+  width: 108%;
+}
+
+.process-circle h5 {
+  font-weight: 500;
+  margin-top: 25px;
+  color: #0b2c48;
+  font-size: 30px;
+}
+
+.process-circle p {
+  font-size: 16px;
+  color: #5f6f81;
+  margin-top: 10px;
+}
 
 
 
+/* --------------------------------------------------------SERVICE-TWO---------------------------------- */
 
+.camo-washing .camo-washing-card{
+    min-height: 250px;
+    height: auto;
+    width: 100%;
+
+}
+
+.camo-washing p {
+    color: #1B2A41;
+}
 
 
 
