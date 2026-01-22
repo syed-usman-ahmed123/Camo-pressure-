@@ -325,11 +325,12 @@ a:active {
 
 
 .camo-six {
-    background: url('../assets/secsix.webp');
+    /* background: url('../assets/secsix.webp'); */
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     height: auto;
+    margin-top: 200px;
 }
 
 
@@ -755,7 +756,7 @@ section.camo-about .container .row.bg-white {
 
 /* ---------------------------------------------------------------------SERVICES AREAS SECTION------------------ */
 
-.camo-areas{
+.camo-areas {
     background-color: #e8f8fc;
 }
 
@@ -764,7 +765,7 @@ section.camo-about .container .row.bg-white {
     z-index: 5;
 }
 
-    
+
 .camo-areas .city-card {
     overflow: hidden;
     background-color: #CAF6FF;
@@ -808,36 +809,36 @@ section.camo-about .container .row.bg-white {
 /* services section */
 
 .process-section {
-  background: radial-gradient(circle at top, #eaf9ff 0%, #f9fdff 70%);
+    background: radial-gradient(circle at top, #eaf9ff 0%, #f9fdff 70%);
 }
 
 .process-circle {
-  background: #ffffff;
-  border-radius: 50%;
-  padding: 50px 30px;
-  height: 100%;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.05);
-  width: 108%;
+    background: #ffffff;
+    border-radius: 50%;
+    padding: 50px 30px;
+    height: 100%;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
+    width: 108%;
 }
 
 .process-circle h5 {
-  font-weight: 500;
-  margin-top: 25px;
-  color: #0b2c48;
-  font-size: 30px;
+    font-weight: 500;
+    margin-top: 25px;
+    color: #0b2c48;
+    font-size: 30px;
 }
 
 .process-circle p {
-  font-size: 16px;
-  color: #5f6f81;
-  margin-top: 10px;
+    font-size: 16px;
+    color: #5f6f81;
+    margin-top: 10px;
 }
 
 
 
 /* --------------------------------------------------------SERVICE-TWO---------------------------------- */
 
-.camo-washing .camo-washing-card{
+.camo-washing .camo-washing-card {
     min-height: 250px;
     height: auto;
     width: 100%;
@@ -850,6 +851,130 @@ section.camo-about .container .row.bg-white {
 
 
 
+
+
+/* --------------------------------------------------------------------------AREAS-TWO------------------------------- */
+
+
+.camo-areas-card .curv-line {
+    top: 420px;
+}
+
+.camo-areas-card {
+    position: relative;
+    background-color: #f8fafc;
+    background-image:
+        linear-gradient(to bottom, #ffffff 0%, transparent 15%),
+        linear-gradient(to top, #ffffff 0%, transparent 8%),
+        radial-gradient(circle at 0% 0%, #ffffff 0%, transparent 60%),
+        radial-gradient(circle at 100% 50%, #e0f2fe 0%, #f0f9ff 100%);
+    background-blend-mode: normal;
+}
+
+/* .area-card-one{
+    box-shadow: 0 10px 100px 20px rgba(25, 170, 199, 0.25) !important;
+} */
+
+.area-card-two{
+    box-shadow: 0 50px 100px 20px rgba(25, 170, 199, 0.25) !important;
+} 
+
+.area-card-three{
+    box-shadow: 0 10px 100px 20px rgba(25, 170, 199, 0.25) !important;
+}
+
+.area-card-four{
+    box-shadow: 0 50px 100px 20px rgba(25, 170, 199, 0.25) !important;
+}
+
+
+
+.camo-areas-three .services-list {
+    position: relative;
+    list-style: none;
+    padding-left: 30px;
+    border-left: 1px solid #FFFFFF;
+}
+
+.camo-areas-three .service-item {
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.camo-areas-three .service-item::before {
+    content: "";
+    position: absolute;
+    left: -37px;
+    top: 5px;
+    width: 12px;
+    height: 12px;
+    background-color: var(--brand-accent);
+    border-radius: 50%;
+}
+
+.camo-areas-three .service-title {
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-bottom: 4px;
+}
+
+.camo-areas-three .service-desc {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+.camo-areas-slider .testimonail-h {
+    margin-top: 150px !important;
+}
+
+
+.custom-section {
+    padding-top: 90px;
+    position: relative;
+    overflow: hidden;
+}
+
+.arc-container {
+    background-color: white;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    padding: 100px 20px 60px 20px;
+    /* margin-top: 50px; */
+    position: relative;
+    border-top: 2px solid #e0f7fa;
+    box-shadow: 0 -90px 100px 20px rgba(25, 170, 199, 0.25);
+
+
+
+}
+
+
+.floating-icon {
+    position: absolute;
+    top: -130px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 280px;
+    height: 280px;
+    z-index: 10;
+}
+
+
+@media (max-width: 1250px) {
+    .arc-container {
+        border-top-left-radius: 20%;
+        border-top-right-radius: 20%;
+
+    }
+}
 
 
 /* ------------------------------------------------------------- USMAN BUTTON ANIMATION -------------------*/
